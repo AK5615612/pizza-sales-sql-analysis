@@ -9,10 +9,10 @@ The analysis covers sales performance, revenue generation, ordering patterns, an
 ## 📂 Dataset
 The dataset consists of 4 CSV files:
 
-- 🧾 **orders.csv** → order_id, order_date, order_time  
-- 📊 **order_details.csv** → order_id, pizza_id, quantity  
-- 🍕 **pizzas.csv** → pizza_id, pizza_type_id, size, price  
-- 🧂 **pizza_types.csv** → pizza_type_id, name, category, ingredients  
+- 🧾 [**orders.csv**](https://github.com/AK5615612/pizza-sales-sql-analysis/blob/main/data/orders.csv) → order_id, order_date, order_time  
+- 📊 [**order_details.csv**](https://github.com/AK5615612/pizza-sales-sql-analysis/blob/main/data/order_details.csv) → order_id, pizza_id, quantity  
+- 🍕 [**pizzas.csv**](https://github.com/AK5615612/pizza-sales-sql-analysis/blob/main/data/pizzas.csv) → pizza_id, pizza_type_id, size, price  
+- 🧂 [**pizza_types.csv**](https://github.com/AK5615612/pizza-sales-sql-analysis/blob/main/data/pizza_types.csv) → pizza_type_id, name, category, ingredients  
 
 ---
 
@@ -38,3 +38,9 @@ The dataset consists of 4 CSV files:
 ---
 
 ## 📁 Repository Structure
+pizza-sales-sql-analysis/
+├── data/              # CSV datasets (orders.csv, order_details.csv, pizzas.csv, pizza_types.csv)
+├── queries/           # SQL scripts (basic, intermediate, advanced queries)
+├── presentation/      # Project presentation (PPT or PDF from Canva)
+└── README.md          # Main project documentation
+
